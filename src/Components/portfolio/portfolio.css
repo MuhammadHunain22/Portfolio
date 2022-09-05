@@ -32,4 +32,8 @@
          width: var(----container-width-sm)
         
      }
+
+     #portfolio{
+        margin: 2rem;
+     }
  }

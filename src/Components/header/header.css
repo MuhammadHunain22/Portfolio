@@ -92,6 +92,6 @@ header{
 
     .header__socials{
         position: relative;
-bottom: 0.5rem;
+top: 2rem;
 }
 }

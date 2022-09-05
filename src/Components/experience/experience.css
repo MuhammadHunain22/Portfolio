@@ -19,3 +19,11 @@
       flex-wrap: wrap;
     }
   }
+
+  /*====================== MEDIA QUERIES (SMALL DEVICES)=====================*/
+@media screen and (max-width:600px) {
+
+  #experience{
+    margin: 2rem;
+}
+}

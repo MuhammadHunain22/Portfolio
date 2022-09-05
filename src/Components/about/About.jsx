@@ -8,8 +8,8 @@ import {FaCertificate} from 'react-icons/fa'
 export const About = () => {
   return (
     <section id='about'>
-      <h2>Get To Know</h2>
-      <h1>About Me</h1>
+      <h1>Get To Know</h1>
+      <h2>About Me</h2>
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me_img">
