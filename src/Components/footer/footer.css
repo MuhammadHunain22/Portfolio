@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+footer{
+    display: flex;
+    background: var(--color-primary);
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    justify-content: space-evenly;
+    
+
+}
+
+
+.footer_logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    font-weight: 500;
+    
+}
+
+
+.footer_socials{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+
+    
+}
+
+.footer_socials >a{
+    background: var(--color-bg);
+    color: var(--color-white);
+    padding:  0.8rem;
+    border-radius: 0.7rem;
+    align-items: flex-end;
+    font-size: larger;
+  
+}
+
+.footer_copyright{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+.footer_copyright{
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+    color: var(--color-bg);
+    font-size: 17px;
+}
+
+/*====================== MEDIA QUERIES (MEDIUM DEVICES)=====================*/
+@media screen and (max-width:1024px) {
+    .footer{
+       width: var(--container-width-md);
+ 
+    }
+}
+
+
+/*====================== MEDIA QUERIES (SMALL DEVICES)=====================*/
+@media screen and (max-width:600px) {
+    .permalinks{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+

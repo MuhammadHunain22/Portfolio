@@ -1,0 +1,21 @@
+#experience{
+    margin: 6rem;
+    padding: 4rem;
+}
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+@media all and (max-width: 500px) {
+    .card-list {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+      margin: 1rem;
+      flex-wrap: wrap;
+    }
+  }
